@@ -1,0 +1,9 @@
+create database springDemo
+
+use springDemo
+create table studentdb2(
+id int PRIMARY KEY AUTO_INCREMENT ,
+sname varchar(20),
+scourse varchar(20),
+sfee int
+)
