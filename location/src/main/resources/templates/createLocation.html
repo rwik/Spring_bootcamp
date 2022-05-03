@@ -1,0 +1,29 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Create Location</title>
+</head>
+<body>
+    <h1>Create Location</h1>
+    <form action="createLocation" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+        </div>
+        <div>
+            <label for="id">id:</label>
+            <input type="text" name="id" id="id" />
+        </div>
+        <div>
+            <label for="code">Code:</label>
+            <input type="text" name="code" id="code" />
+        </div>
+        <div>
+            <label for="type">Type:</label>
+            <input type="radio" name="type" value="urban" />
+            <input type="radio" name="type" value="rural" />
+        </div>
+       
+        <input type="submit" value="save">
+    </form>
+</body>
+</html>
